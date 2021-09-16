@@ -8,7 +8,7 @@
     #select p { margin: auto; }
     #select h2 { font-size: 24px; }
     .btn { font-size: 16px; 
-           margin-top: 6px; }
+           margin-top: 30px; }
     #restos img { object-position: 0; }
     #restos #lne-img { object-position: 0; }
     #restos .new { right: -245px; }
@@ -17,15 +17,12 @@
     #restos .hoverheart { left: 201px; }
     article { flex-wrap: nowrap; 
               object-fit: contain; }
-    article #rest-legend { margin-top: -40px; }
     article .fa-heart { margin-left: 20px; }
-    article h1 { margin-left: 20px;}
+    article h1 { margin-left: 20px; }
     article #menu { row-gap: 0; 
                     margin-top: 20px; }
                 h3 { text-align: justify; }
-    article .btn { width: 140px; } 
-    .btn-menu:hover span { transform: translateX(-36px); }  
-    .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-14px); }  
+    .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-16px); }
     footer h2 { margin: 20px 0 0 20px; } 
     footer #partner + p { margin: 0 0 0 20px; } 
     footer p:nth-last-child(1) { margin: 0 0 30px 20px; }
@@ -39,6 +36,8 @@
     #restos .fa-heart { left: 250px; 
                         bottom: 40px; }
     #restos .hoverheart { left: 221px; }
+    article #rest-legend { padding-top: 0px; }  
+    .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-14px); }
     footer #partner +p { margin: 0 0 0 20px; }
     footer p:nth-last-child(1) { margin: 0 0 30px 20px; }
 }
@@ -46,7 +45,7 @@
 @media screen and (min-width: 411px) and (max-width: 412px)
 {
     article .fa-heart { margin-left: 42px; }
-    .btn-menu:hover span { transform: translateX(-44px); }
+    .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-20px); }
     #restos .new { right: -280px; }
     #restos img { object-position: 0; }
     #restos .fa-heart { left: 260px; 

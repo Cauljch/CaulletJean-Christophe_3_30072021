@@ -49,14 +49,15 @@ article{
         display: inline-flex;
         align-items: center;
         border: none;
-        margin-top: -50px;
+        padding-top: 15px;
+        margin-top: -40px;
         background-color:rgb(240, 243, 242);
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
         z-index: 1;}
         .fa-heart{
             font-size: 20px;
-            margin-left: 40px;}
+            margin-left: 20px;}
         h1{
             text-align: left;
             width: 76%;
@@ -134,7 +135,7 @@ article{
         text-overflow: ellipsis;}
     span{
         z-index: 2;
-        padding-left: 18px;
+        padding-left: 10px;
         grid-area: 2 / 2 / 3 / 3;}
     #dish-ok{
         display: flex;
