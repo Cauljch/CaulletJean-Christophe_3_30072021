@@ -15,7 +15,6 @@
     #restos .fa-heart { left: 250px; 
                         bottom: 40px; }
     #restos .hoverheart { left: 201px; }
-    footer div { font-size: 14px; }
     article { flex-wrap: nowrap; 
               object-fit: contain; }
     article #rest-legend { margin-top: -40px; }
@@ -30,7 +29,6 @@
     footer h2 { margin: 20px 0 0 20px; } 
     footer #partner + p { margin: 0 0 0 20px; } 
     footer p:nth-last-child(1) { margin: 0 0 30px 20px; }
-    footer #purpose p, footer #partner p { margin: 0 0 0 18px; }
 }
 
 @media screen and (width: 360px)
@@ -41,6 +39,8 @@
     #restos .fa-heart { left: 250px; 
                         bottom: 40px; }
     #restos .hoverheart { left: 221px; }
+    footer #partner +p { margin: 0 0 0 20px; }
+    footer p:nth-last-child(1) { margin: 0 0 30px 20px; }
 }
 
 @media screen and (min-width: 411px) and (max-width: 412px)
@@ -71,6 +71,7 @@
                   margin-right: 10px; }
     #function h4 { text-align: center;
                    padding-left: 0; }
+    .btn { width: 460px;}
     #restos { display: grid; 
               grid-template-columns: 50% 50%;
               grid-template-rows: 16% 42% 42%; }
