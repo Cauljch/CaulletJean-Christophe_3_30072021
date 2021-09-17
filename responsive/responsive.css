@@ -92,7 +92,6 @@
     article #entrees, article #plats, article #desserts { width: 90%;
                                                           margin: auto; }
     article h1 { margin-left: 60px; }
-    article .fa-heart { font-size: 24px; }
     article .menu-choice { grid-area: 1 / 1 / 2 / 4; }
     article .menu-choice h3 { margin-left: 20px; }
     .btn-menu { grid-template-columns: 88% 12%; }

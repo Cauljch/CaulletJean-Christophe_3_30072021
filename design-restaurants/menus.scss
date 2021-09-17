@@ -15,9 +15,12 @@ img{
 }
 
 h1{
-    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand";
     width: 100%;
     text-align: center;
+}
+p, h2, h3{
+    font-family: "Roboto", sans-serif;
 }
 
 .fa-arrow-left{
@@ -56,8 +59,8 @@ article{
         border-top-right-radius: 40px;
         z-index: 1;}
         .fa-heart{
-            font-size: 20px;
-            margin-left: 20px;}
+            font-size: 26px;
+            margin-left: 28px;}
         h1{
             text-align: left;
             width: 76%;
@@ -85,8 +88,6 @@ article{
             animation-duration: 6s;
             animation-delay: 800ms;
             animation-timing-function: linear;}
-            h3{
-                width: 95%;}
         .menu-choice{
             width: 100%;
             text-align: left;
