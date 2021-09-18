@@ -234,7 +234,7 @@ footer p {
 }
 footer #user-contact {
   display: grid;
-  grid-template-columns: 10% 50%;
+  grid-template-columns: 5% 60%;
   row-gap: 10px;
   grid-template-rows: repeat(5, auto);
 }

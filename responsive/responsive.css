@@ -74,13 +74,12 @@
     #restos { display: grid; 
               grid-template-columns: 50% 50%;
               grid-template-rows: 16% 42% 42%; }
+    #restos article:nth-child(3) { grid-template-areas: 3 / 1 / 4 / 2; }
     #restos img { object-position: 0 -50px; }
     #restos #img-lne { object-position: 0 -150px; }
     #restos h2 { grid-area: 1 / 1 / 2 / 3; 
                  width: 100%;
                  text-align: center; }
-    #restos div h3 { padding-top: 10px; }
-    #restos .new { right: -250px; }
     #restos .fa-heart { left: 290px; }
     #restos .hoverheart { left: 261px; }
     footer { text-align: justify; }

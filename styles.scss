@@ -191,16 +191,16 @@ header{
         grid-template-rows: 2fr 1fr;
         margin-bottom: 25px;}
         .new{
-            position: relative; z-index: 1;
+            position: absolute; z-index: 1;
             background-color: #77f0d2;
             padding-left: 15px;
             padding-top: 4px;
             width: 70px;
             height: 24px;
-            right: -340px;
+            right: 50px;
+            bottom: -20px;
             font-size: 15px;
             font-weight: lighter;
-            bottom: 240px;
             color: #3e7941;}
         #lne-img{
             width: 90%;

@@ -229,17 +229,17 @@ header {
   margin-bottom: 25px;
 }
 #restos .new {
-  position: relative;
+  position: absolute;
   z-index: 1;
   background-color: #77f0d2;
   padding-left: 15px;
   padding-top: 4px;
   width: 70px;
   height: 24px;
-  right: -340px;
+  right: 50px;
+  bottom: -20px;
   font-size: 15px;
   font-weight: lighter;
-  bottom: 240px;
   color: #3e7941;
 }
 #restos #lne-img {
