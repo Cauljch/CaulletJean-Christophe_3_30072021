@@ -64,10 +64,12 @@ article{
         h1{
             text-align: left;
             width: 76%;
+            margin-bottom: 0px;
             margin-left: 10px;}
     #menu{
         display: grid;
         grid-template-rows: 31% 31% 31%;
+        margin-top: 20px;
         row-gap: 20px;}
         #entrees, #plats, #desserts{
             display: flex;

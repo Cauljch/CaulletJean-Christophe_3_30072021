@@ -78,11 +78,13 @@ article .fa-heart {
 article h1 {
   text-align: left;
   width: 76%;
+  margin-bottom: 0px;
   margin-left: 10px;
 }
 article #menu {
   display: grid;
   grid-template-rows: 31% 31% 31%;
+  margin-top: 20px;
   row-gap: 20px;
 }
 article #entrees, article #plats, article #desserts {

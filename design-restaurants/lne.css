@@ -68,6 +68,7 @@ article #rest-legend {
   display: inline-flex;
   align-items: center;
   border: none;
+  padding-top: 15px;
   margin-top: -50px;
   background-color: #f0f3f2;
   border-top-left-radius: 40px;
@@ -75,11 +76,13 @@ article #rest-legend {
   z-index: 1;
 }
 article .fa-heart {
-  font-size: 20px;
+  font-size: 26px;
+  margin-left: 28px;
 }
 article h1 {
   text-align: left;
   width: 76%;
+  margin-bottom: 0px;
   margin-left: 10px;
 }
 article #menu {
@@ -131,6 +134,8 @@ article .menu-choice {
 article .menu-choice h3 {
   border-bottom-style: solid;
   padding-bottom: 4px;
+  margin-top: 0px;
+  margin-left: 10px;
   width: 50px;
   border-bottom-color: greenyellow;
 }
@@ -148,10 +153,14 @@ article .btn {
   color: white;
 }
 
+article #desserts .menu-choice {
+  margin-top: 20px;
+}
+
 .btn-menu {
   display: grid;
   grid-template-columns: 85% 15%;
-  grid-template-rows: repeat(2, 2rem);
+  grid-template-rows: repeat(2, 2.4rem);
   width: 95%;
   margin-bottom: 20px;
   background: white;
@@ -181,7 +190,7 @@ article .btn {
 }
 .btn-menu span {
   z-index: 2;
-  padding-left: 18px;
+  padding-left: 10px;
   padding-top: 3px;
   grid-area: 2/2/3/3;
 }
@@ -238,7 +247,7 @@ footer p {
 }
 footer #user-contact {
   display: grid;
-  grid-template-columns: 5% 60%;
+  grid-template-columns: 10% 60%;
   row-gap: 10px;
   grid-template-rows: repeat(5, auto);
 }
@@ -272,4 +281,8 @@ footer #partner + p {
 }
 footer p:nth-last-child(1) {
   margin: 0 0 30px 26px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=lne.css.map */

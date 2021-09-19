@@ -54,16 +54,19 @@ article{
         display: inline-flex;
         align-items: center;
         border: none;
+        padding-top: 15px;
         margin-top: -50px;
         background-color:rgb(240, 243, 242);
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
         z-index: 1;}
         .fa-heart{
-            font-size: 20px;}
+            font-size: 26px;
+            margin-left: 28px;}
         h1{
             text-align: left;
             width: 76%;
+            margin-bottom: 0px;
             margin-left: 10px;}
     #menu{
         display: grid;
@@ -96,6 +99,8 @@ article{
             h3{
                 border-bottom-style: solid;
                 padding-bottom: 4px;
+                margin-top: 0px;
+                margin-left: 10px;
                 width: 50px;
                 border-bottom-color: greenyellow;}
     }
@@ -111,11 +116,12 @@ article{
             height: 46px;
             color: white;}
 }
+article #desserts .menu-choice { margin-top: 20px; }
 
 .btn-menu{
     display: grid; 
     grid-template-columns: 85% 15%;
-    grid-template-rows: repeat(2, 2rem);
+    grid-template-rows: repeat(2, 2.4rem);
     width: 95%;
     margin-bottom: 20px;
     background: white;
@@ -140,7 +146,7 @@ article{
         text-overflow: ellipsis;}
     span{
         z-index: 2;
-        padding-left: 18px;
+        padding-left: 10px;
         padding-top: 3px;
         grid-area: 2 / 2 / 3 / 3;}
     #dish-ok{
@@ -191,7 +197,7 @@ footer{
     p { font-family: "Roboto", sans-serif; }
     #user-contact{
         display: grid;
-        grid-template-columns: 5% 60%;
+        grid-template-columns: 10% 60%;
         row-gap: 10px;
         grid-template-rows: repeat(5, auto);}
         h2{
@@ -215,4 +221,7 @@ footer{
             grid-area: 4 / 1 / 5 / 3;}
     p:nth-last-child(1){
         margin: 0 0 30px 26px;}
+    a {
+        color: white;
+        text-decoration: none;}
 }
