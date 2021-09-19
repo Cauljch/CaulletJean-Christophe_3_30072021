@@ -7,11 +7,8 @@
     #select { grid-template-rows: 30% 30% 40%; }
     #select p { margin: auto; }
     #select h2 { font-size: 24px; }
-    .btn { font-size: 16px; 
-           margin-top: 30px; }
     #restos img { object-position: 0; }
     #restos #lne-img { object-position: 0; }
-    #restos .new { right: -245px; }
     #restos .fa-heart { left: 250px; 
                         bottom: 40px; }
     #restos .hoverheart { left: 201px; }
@@ -19,8 +16,8 @@
               object-fit: contain; }
     article .fa-heart { margin-left: 20px; }
     article h1 { margin-left: 20px; }
-    article #menu { row-gap: 0; 
-                    margin-top: 20px; }
+    article #cmd { padding-top: 20px; }
+    article #menu { margin-top: 20px; }
                 h3 { text-align: justify; }
     .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-16px); }
     footer h2 { margin: 20px 0 0 20px; } 
@@ -32,13 +29,14 @@
 {
     #restos img { object-position: 0; }
     #restos #lne-img { object-position: 0; }
-    #restos .new { right: -230px; }
     #restos .fa-heart { left: 250px; 
                         bottom: 40px; }
     #restos .hoverheart { left: 221px; }
     article #rest-legend { padding-top: 0px; }  
+    article #cmd { padding-top: 20px; }
     .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-14px); }
     footer #partner +p { margin: 0 0 0 20px; }
+    footer h2 { margin: 20px 0 0 20px; }
     footer p:nth-last-child(1) { margin: 0 0 30px 20px; }
 }
 
@@ -46,7 +44,6 @@
 {
     article .fa-heart { margin-left: 42px; }
     .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-20px); }
-    #restos .new { right: -280px; }
     #restos img { object-position: 0; }
     #restos .fa-heart { left: 260px; 
                         bottom: 40px; }
@@ -82,7 +79,7 @@
                  text-align: center; }
     #restos .fa-heart { left: 290px; }
     #restos .hoverheart { left: 261px; }
-    footer { text-align: justify; }
+    footer #user-contact { grid-template-columns: 6% 60%; }
         #user-contact h2 { text-align: justify;
                            margin-left: 20px; }
         .fa-utensils, .fa-hands-helping { text-align: left; }

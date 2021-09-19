@@ -126,6 +126,7 @@ article .menu-choice {
 article .menu-choice h3 {
   border-bottom-style: solid;
   padding-bottom: 4px;
+  margin-top: 0px;
   margin-left: 10px;
   width: 50px;
   border-bottom-color: greenyellow;
@@ -234,7 +235,7 @@ footer p {
 }
 footer #user-contact {
   display: grid;
-  grid-template-columns: 5% 60%;
+  grid-template-columns: 10% 60%;
   row-gap: 10px;
   grid-template-rows: repeat(5, auto);
 }
@@ -268,4 +269,8 @@ footer #partner + p {
 }
 footer p:nth-last-child(1) {
   margin: 0 0 30px 26px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=menus.css.map */

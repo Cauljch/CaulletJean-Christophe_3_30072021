@@ -94,6 +94,7 @@ article{
             h3{
                 border-bottom-style: solid;
                 padding-bottom: 4px;
+                margin-top: 0px;
                 margin-left: 10px;
                 width: 50px;
                 border-bottom-color: greenyellow;}
@@ -190,7 +191,7 @@ footer{
     p { font-family: "Roboto", sans-serif; }
     #user-contact{
         display: grid;
-        grid-template-columns: 5% 60%;
+        grid-template-columns: 10% 60%;
         row-gap: 10px;
         grid-template-rows: repeat(5, auto);}
         h2{
@@ -214,4 +215,7 @@ footer{
             grid-area: 4 / 1 / 5 / 3;}
     p:nth-last-child(1){
         margin: 0 0 30px 26px;}
+    a {
+        color: white;
+        text-decoration: none;}
 }
