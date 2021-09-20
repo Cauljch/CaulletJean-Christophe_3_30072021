@@ -69,17 +69,15 @@
     #function h4 { text-align: center;
                    padding-left: 0; }
     .btn { width: 460px;}
-    #restos { display: grid; 
-              grid-template-columns: 50% 50%;
-              grid-template-rows: 16% 42% 42%; }
     #restos article:nth-child(3) { grid-template-areas: 3 / 1 / 4 / 2; }
-    #restos img { object-position: 0 -50px; }
-    #restos #img-lne { object-position: 0 -150px; }
+    #restos img:not(#img-lne) { object-position: 0 -150px; }
+    #restos #img-lne { object-position: 0 -120px; }
     #restos h2 { grid-area: 1 / 1 / 2 / 3; 
                  width: 100%;
                  text-align: center; }
-    #restos .fa-heart { left: 290px; }
-    #restos .hoverheart { left: 261px; }
+    #restos .new { right: 70px; }
+    #restos .fa-heart { left: 590px; }
+    #restos .hoverheart { left: 560px; }
     footer #user-contact { grid-template-columns: 6% 60%; }
         #user-contact h2 { text-align: justify;
                            margin-left: 20px; }
@@ -105,11 +103,12 @@
     #function .number { width: 8%;
                         right: 9px; }
     #restos .new { right: -370px; }
-    #restos .fa-heart { left: 390px; }
-    #restos .hoverheart { left: 361px; }
-    #restos img { object-position: 0 -110px; }
+    #restos .fa-heart { left: 790px; }
+    #restos .hoverheart { left: 760px; }
+    #restos img:not(#img-lne) { object-position: 0 -260px; }
     #restos #lne-img { object-position: 0 -235px; }
-    article h1 { margin-left: 30px; }
+    article h1 { margin-left: 30px;
+                 width: 85%; }
     article #menu { width: 96%;
                     margin: auto; } 
     article .menu-choice h3 { margin-left: 6px; }
