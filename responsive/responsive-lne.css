@@ -16,7 +16,7 @@
               object-fit: contain; }
     article #entrees .menu-choice { margin-top: 14px; }
     article .fa-heart { margin-left: 20px; }
-    article h1 { margin-left: 20px; }
+    article h2 { margin-left: 20px; }
     article #cmd { padding-top: 20px; }
     article #menu { margin-top: 20px; }
                 h3 { text-align: justify; }
@@ -91,7 +91,7 @@
     footer p:nth-last-child(1) { margin-left: 20px; }
     article #entrees, article #plats, article #desserts { width: 90%;
                                                           margin: auto; }
-    article h1 { margin-left: 60px; }
+    article h2 { margin-left: 60px; }
     article #entrees .menu-choice { margin-top: 14px; }
     article .menu-choice { grid-area: 1 / 1 / 2 / 4; }
     article .menu-choice h3 { margin-left: 20px; }
@@ -113,7 +113,7 @@
     #restos .hoverheart { left: 361px; }
     #restos img { object-position: 0 -110px; }
     #restos #lne-img { object-position: 0 -235px; }
-    article h1 { margin-left: 30px; }
+    article h2 { margin-left: 30px; }
     article #menu { width: 96%;
                     grid-template-rows: 48% 22% 22%;
                     margin: auto; } 

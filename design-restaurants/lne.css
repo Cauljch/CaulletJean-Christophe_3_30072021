@@ -57,6 +57,11 @@ p, h2, h3 {
     opacity: 1;
   }
 }
+#wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
 article {
   display: flex;
   flex-flow: column wrap;
@@ -75,13 +80,14 @@ article #rest-legend {
   border-top-right-radius: 40px;
   z-index: 1;
 }
-article .fa-heart {
+article .fa-heart, article .hoverheart {
   font-size: 26px;
   margin-left: 28px;
 }
-article h1 {
+article h2 {
   text-align: left;
   width: 76%;
+  font-family: "Shrikhand";
   margin-bottom: 0px;
   margin-left: 10px;
 }
@@ -151,6 +157,16 @@ article .btn {
   width: 200px;
   height: 46px;
   color: white;
+}
+
+#rest-legend .hoverheart:hover {
+  cursor: pointer;
+  opacity: 1;
+  font-size: 26px;
+  margin-left: 28px;
+  transition: 1s ease-out;
+  font-weight: bold;
+  color: #b74abb;
 }
 
 article #desserts .menu-choice {
