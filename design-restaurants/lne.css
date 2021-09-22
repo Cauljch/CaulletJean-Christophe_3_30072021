@@ -194,7 +194,7 @@ article #desserts .menu-choice {
   padding-top: 3px;
   grid-area: 2/2/3/3;
 }
-.btn-menu #dish-ok {
+.btn-menu .dish-ok {
   display: flex;
   width: 100%;
   grid-area: 1/2/3/3;
@@ -220,7 +220,7 @@ article #desserts .menu-choice {
 .btn-menu:hover p {
   padding-right: 40px;
 }
-.btn-menu:hover #dish-ok {
+.btn-menu:hover .dish-ok {
   background: #99e2d0;
   transition: 0.5s ease-in;
   z-index: 3;
@@ -232,7 +232,7 @@ article #desserts .menu-choice {
   transition: 0.5s ease-in;
 }
 
-.btn-menu::after #dish-ok {
+.btn-menu::after .dish-ok {
   display: none;
 }
 
