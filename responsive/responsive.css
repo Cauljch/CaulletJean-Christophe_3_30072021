@@ -102,7 +102,6 @@
 {   
     #function .number { width: 8%;
                         right: 9px; }
-    #restos .new { right: -370px; }
     #restos .fa-heart { left: 790px; }
     #restos .hoverheart { left: 760px; }
     #restos img:not(#img-lne) { object-position: 0 -260px; }
